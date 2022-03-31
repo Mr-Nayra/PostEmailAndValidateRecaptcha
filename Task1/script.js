@@ -1,10 +1,11 @@
 const form = document.getElementById('email-form');
 
 form.addEventListener('submit', (event) => {
+  event.preventDefault();
+
   var btn = document.getElementById("button");
   btn.setAttribute("value", "Please wait...");
 
-  event.preventDefault();
   const data = {
     "fields": [{
       "name": "email",

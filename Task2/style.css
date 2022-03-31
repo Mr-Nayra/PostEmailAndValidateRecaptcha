@@ -118,3 +118,16 @@ input[type=email]:focus {
   align-items: center;
   justify-content: center;
 }
+
+.aftersubmit{
+  padding: 2vh 10%;
+  margin-top: 2vh;
+  background-color: #dddddd;
+  color: #66666e;
+  text-align: center;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5vh;
+}
